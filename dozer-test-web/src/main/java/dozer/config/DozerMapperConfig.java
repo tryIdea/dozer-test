@@ -12,7 +12,7 @@ import org.springframework.core.io.Resource;
  * @author dufugang
  * @create 2018-10-22 下午2:46
  */
-@Configuration
+/*@Configuration
 public class DozerMapperConfig {
     @Bean
     public DozerBeanMapperFactoryBean dozerBeanMapperFactoryBean(@Value("classpath*:dozer/*.xml") Resource[] resources)
@@ -21,4 +21,4 @@ public class DozerMapperConfig {
         dozerBeanMapperFactoryBean.setMappingFiles(resources);
         return dozerBeanMapperFactoryBean;
     }
-}
+}*/
