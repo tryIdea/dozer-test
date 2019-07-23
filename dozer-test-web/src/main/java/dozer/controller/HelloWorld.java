@@ -20,12 +20,13 @@ public class HelloWorld {
     private Mapper mapper;
 
     @GetMapping("/world")
-    public HelloDTO hello() {
+    public HelloDTO hello() throws InterruptedException {
 
         Hello hello = new Hello();
         hello.setId(1L);
         hello.setName("hello");
 
+        Thread.sleep(500);
         HelloDTO helloDTO = mapper.map(hello, HelloDTO.class);
 
         return helloDTO;
