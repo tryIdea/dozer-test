@@ -24,7 +24,7 @@ public class HelloWorld {
 
         Hello hello = new Hello();
         hello.setId(1L);
-        hello.setName("hello");
+        hello.setName("hello 你好");
 
         Thread.sleep(500);
         HelloDTO helloDTO = mapper.map(hello, HelloDTO.class);
